@@ -6,8 +6,8 @@ export default function App() {
 
   function setBuy(item) {
     setItems(prev => [...prev, item])
-    console.log(item)
   }
+
 
   return (
     <div className="container">
