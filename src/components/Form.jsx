@@ -5,11 +5,12 @@ export default function Form({setBuy}) {
     return (
         <form>
             <input 
+                required
                 type="text"
                 value={name}
                 onChange={(e) => setName(e.target.value)}
             />
-            <button type="button" onClick={() => setBuy(name)}>Add</button>
+            <button type="button" onClick={() => {if(name) setBuy(name)}}>Add</button>
         </form>
     )
 }
