@@ -21,6 +21,20 @@ body {
   width: 50vw;
   min-width: 300px;
 }
+form {
+  height: 30px;
+  display: flex;
+}
+input {
+  font-size: 1.2rem;
+  text-align: center;
+  height: 100%;
+}
+button {
+  height: 100%;
+  padding: 0px 10px;
+  font-weight: 600;
+}
 .listings {
   width: 100%;
   padding-block: 20px;
@@ -29,7 +43,9 @@ body {
   display: flex;
   justify-content: space-between;
   width: 50%;
+  max-width: 300px;
   margin: auto;
+  font-size: 1.2rem;
 }
 .delete {
   color: red;
