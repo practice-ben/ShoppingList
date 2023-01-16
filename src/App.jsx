@@ -8,11 +8,21 @@ export default function App() {
     setItems(prev => [...prev, item])
   }
 
-  const elements = items.map(item => {
+  function remove(index) {
+    setItems(prev => {
+      return prev.filter((item, i) => {
+        if(index != i) {
+          return true;
+        }
+      })
+    })
+  }
+
+  const elements = items.map((item, index) => {
     return (
-      <div className="listing">
+      <div key={index+1} className="listing">
         <p>{item}</p>
-        <span className="delete">X</span>
+        <span className="delete" onClick={() => remove(index)}>X</span>
       </div>
     )
   })
