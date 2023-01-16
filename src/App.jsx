@@ -29,7 +29,7 @@ export default function App() {
 
   return (
     <div className="container">
-      <h1>Items To Buy</h1>
+      <h1 className="title">Items To Buy</h1>
       <div className="items-to-buy">
         <Form setBuy={setBuy} />
       </div>
