@@ -16,6 +16,10 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  background: white;
+  padding: 20px;
+  width: 50vw;
+  min-width: 300px;
 }
 .listings {
   width: 100%;
