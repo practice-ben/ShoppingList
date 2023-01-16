@@ -5,6 +5,8 @@ I experienced a challenge in setting the key for each individual child element b
 I was able to overcome this challenge by passing the individual index as an argument to the map function add a value of one to the index and assign the resultant value as the key of the child component.
 
 ## Lessons learnt 
+1. JavaScript array spread operator and filter functions
+1. Forms and inputs in React
 1. How to pass props in react.
 1. How to lazy initialize functions in react.
 1. How to use keys.
